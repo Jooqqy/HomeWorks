@@ -4,83 +4,63 @@
 }
 
 .cube1 {
-    height: 25vh;
-    width: 25vh;
-    background-color: chartreuse;
-    text-align: center;
-    box-sizing: border-box;
-    padding-top: 100px;
-    font-size: 20px;
     border: 3px solid black;
-    box-shadow: gray 10px 10px 1px 5px ;
+    box-shadow: gray 10px 10px 1px 5px;
 }
 
 .cube2 {
-    height: 25vh;
-    width: 25vh;
-    background-color: chartreuse;
-    text-align: center;
-    box-sizing: border-box;
-    padding-top: 100px;
-    font-size: 20px;
     border: 3px solid black;
-    box-shadow: gray 10px 10px 10px 5px ;
+    box-shadow: gray 10px 10px 10px 5px;
 }
 
 .cube3 {
-    height: 25vh;
-    width: 25vh;
-    background-color: chartreuse;
-    text-align: center;
-    box-sizing: border-box;
-    padding-top: 100px;
-    font-size: 20px;
     border: 3px solid black;
-    box-shadow: gray 10px 10px 10px 10px ;
+    box-shadow: gray 10px 10px 10px 10px;
 }
-
-
 
 .container2 {
     display: flex;
     justify-content: space-between;
-    margin-top: 300px;
 }
 
 .cube4 {
-    height: 25vh;
-    width: 25vh;
-    background-color: chartreuse;
-    text-align: center;
-    box-sizing: border-box;
-    padding-top: 100px;
-    font-size: 20px;
     border: 3px solid black;
-    box-shadow: silver 10px 10px 5px 5px ;
+    box-shadow: silver 10px 10px 5px 5px;
 }
 
 .cube5 {
-    height: 25vh;
-    width: 25vh;
-    background-color: chartreuse;
-    text-align: center;
-    box-sizing: border-box;
-    padding-top: 100px;
-    font-size: 20px;
     border: 3px solid black;
     border-radius: 10px;
-    box-shadow: gray 10px 10px 1px 5px ;
+    box-shadow: gray 10px 10px 1px 5px;
 }
 
 .cube6 {
-    height: 25vh;
-    width: 25vh;
-    background-color: chartreuse;
-    text-align: center;
-    box-sizing: border-box;
-    padding-top: 100px;
-    font-size: 20px;
     border: 3px solid black;
     border-radius: 10px;
-    box-shadow: silver 10px 10px 5px 5px ;
+    box-shadow: silver 10px 10px 5px 5px;
+}
+
+.colorGreen {
+    background-color: chartreuse;
+}
+
+.heightWidht {
+    height: 25vh;
+    width: 25vh;
+}
+
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 300px;
+}
+
+.fontSizeCubes {
+    font-size: 20px;
 }
