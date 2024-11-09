@@ -1,0 +1,38 @@
+.headerWidget {
+    background-color: cornflowerblue;
+    min-height: 150px; 
+    width: 200vh;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.middleWidgetsSize {
+    min-height: 300px;
+    width: 600px;
+}
+
+.middleWidgetsColor {
+    background-color: crimson;
+}
+
+.widgetsTextSize {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottomWidget {
+    background-color: seagreen;
+    min-height: 425px; 
+    width: 200vh;
+}
