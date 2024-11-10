@@ -1,0 +1,66 @@
+.mainContainer {
+    display: grid;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.widgetsContainer1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.widgetsInContainer1Style {
+    background-color: coral;
+    height: 300px;
+    width: 950px;
+}
+
+.widgetsTextSize {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.widgetsInContainer2Style {
+    background-color: coral;
+    height: 625px;
+    width: 950px;
+}
+
+.widgetsContainer2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+
+    .widgetsContainer2 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .widgetsContainer1 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .widgetsInContainer1Style {
+        background-color: coral;
+        height: 300px;
+        width: 576px;
+
+
+    }
+
+    .widgetsInContainer2Style {
+        background-color: cornflowerblue;
+        height: 300px;
+        width: 576px;
+    }
+
+}
