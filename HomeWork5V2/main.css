@@ -1,0 +1,140 @@
+.backgroundColorAllWidgets {
+    background-color: silver;
+}
+
+.headerContainer {
+    display: flex;
+    gap: 5px;
+    height: 50px;
+}
+
+.HeaderLogo {
+    width: 20%;
+}
+
+.HeaderBar {
+    width: 80%;
+}
+
+.mainMiddleContainer {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+} 
+
+.topContainer {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.middleAndBotMiddleContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1;
+}
+
+.bathSIAndAd {
+    display: flex;
+    gap: 5px;
+    height: 300px;
+}
+
+.typesOBAndRelatedP {
+    display: flex;
+    gap: 5px;
+    height: 500px;
+}
+
+.bathSIAndtypesOBWidth {
+    width: 80%;
+}
+
+.nav {
+    height: 600px;
+}
+
+.storeLAndToolsHeight {
+    height: 100px;
+}
+
+
+.footer {
+    margin-top: 5px;
+    height: 50px;
+}
+
+.adAndrelatedPWidth {
+    width: 20%;
+}
+
+.storeLAndToolsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.displayBlockMobile {
+    display: block;
+}
+
+.displayNoneFooterMobile {
+    display: none;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+
+.mainMiddleContainer {
+    display: block;
+}
+
+.displayBlockMobile {
+    display: none;
+}
+
+.displayNoneFooterMobile {
+    display: block;
+}
+
+.topContainer {
+    width: 100%;
+}
+
+.storeLAndToolsContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.storeLAndtoolsWidht {
+    width: 50%;
+}
+
+.typesOBAndRelatedP {
+    display: flex;
+    flex-direction: column;
+}
+
+.typesOBAndRelatedPMobile {
+    width: 100%;
+}
+
+.typesOB {
+    height: 300px;
+}
+
+.relatedP {
+    height: 200px;
+}
+
+.bathSIAndAd {
+    height: 100px;
+}
+
+.storeLAndToolsContainer {
+    display: flex;
+    margin-top: 5px;
+}
+
+}
